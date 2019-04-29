@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+Click anywhere to transition from part A to part B, B to C, or C to A.
 
-You can use the [editor on GitHub](https://github.com/bsmithfagan/CMPM163/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Part A has one shader which applies a texture to the cylinder, one which inverts the vertices of the raccoon, and one which applies a texture and multi-lit Phong shading to the capsule.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Part B has a pixel shader, the size of the pixels will increase depending on how far the cursor is to the right of the screen.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bsmithfagan/CMPM163/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Part C is a cellular automata in which each cell has 3 values: r, g, and b; and each value is compared to that of its neighbors to determine whether or not to increase it. 2 or more neighbors with equal or higher of that value means that it will increase, but once it reaches 1, it is reset to 0. This causes colorful waves to emanate from points where this behavior begins to emerge.
