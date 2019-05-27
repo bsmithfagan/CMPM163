@@ -1,0 +1,4 @@
+The skybox images were too large to be put on GitHub, but they are the same as the example given to us in class.
+
+You should be able to click to go from one scene to the next, but you will need to have the scene open in Editor view to change the properties for part B.
+You can change the color of the 'terrain', as well as the height of it using the displacement and color properties.
