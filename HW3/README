@@ -1,0 +1,4 @@
+Particle systems working together to make a lightning effect. The lightning uses the particle system's noise module to determine direction/shape.
+The rate of small lightning spawns increases as the music gets louder, and once the music reaches a certian volume, larger colored lightning begins to appear.
+
+Use R, G, and B keys to change the large lightning color (invert current r, g, or b value), or use Space to set it to its starting color.
